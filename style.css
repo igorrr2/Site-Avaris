@@ -1,0 +1,319 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+ margin:  0 auto;
+ padding: 0 auto;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho{
+ background-image: linear-gradient(to top, #0F4AA7, black);
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin:  0 auto;
+ background-attachment: scroll;
+ height: 80px;
+ width: 100%;
+}
+.logo{
+ float: left;
+ position: relative;
+ padding: 0 auto;
+ padding-left: 50px;
+ margin: 0 auto;
+}
+.cont{
+ width: 200px;
+ float: right;
+ padding-right: 80px;
+}
+.contato{
+display: block;
+line-height: 40px;
+background-image: linear-gradient(to bottom, #0F4AA7, #272727);
+color: white;
+border-radius: 5px;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-family: Arial;
+}
+.contato:hover{
+background-image: linear-gradient(to bottom, #0F4AA7, black);
+text-decoration: none;
+color: #fff;
+}
+.fundo{
+ background-image: url('../imagens/fundo.jpeg'); 
+background-repeat: no-repeat;
+ background-size: 100%;
+ height: 500px;
+ text-align: left;
+ margin:  0 auto;
+ padding-top: 70px;
+ padding-left: 20px;
+}
+.descricao  h3{
+ margin-bottom: 0px;
+ font-size: 50px;
+}
+.descricao h6{
+  margin-top: 5px;
+}
+.desc{
+     padding-top: 80px;
+     color:#fff;
+     width: 40%;
+     font-family: Arial, Helvetica, sans-serif;  
+}
+.desc1{
+   color:#fff;
+   font-size: 30px;
+   padding-right: 50%;
+  width: 40%;
+   height: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.mais{
+ padding-left: 12%;
+ padding-top: 1%;
+}
+.descricao a{
+ display: block;
+ width: 160px;
+ height: 40px;
+ line-height: 40px;
+ background-image: linear-gradient(to bottom, #0F4AA7, #272727);
+ color: #ffffff;
+ border-radius: 5px;
+ text-decoration: none;
+ text-align: center;
+ font-weight: bold;
+ font-family: Arial;
+}
+.descricao a:hover{
+ background-image: linear-gradient(to top, #0F4AA7, #272727);
+ text-decoration: none;
+ color: #fff;
+}
+.notificacao{
+ padding-top: 20px;
+}
+.informacao h3{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 45px;
+}
+.informacao h6{
+ color: rgb(189, 188, 188);
+ font-size: 18px;
+}
+.second{
+   padding-top: 30px;
+}
+.name input{
+ width: 100%;
+ height: 40px;
+}
+.name{
+ padding-top: 15px;
+} 
+.email input{
+ width: 100%;
+ height: 40px;
+}
+.email{
+ padding-top: 15px;
+} 
+.enviar input{
+   width: 100%;
+   height: 40px;
+   background: rgb(3, 3, 54);
+   border-radius: 4px;
+   height: 35px;
+   color: #fff;
+   border: none;
+ }
+ .enviar{
+   padding-top: 15px;
+ } 
+ .enviar input:hover{
+   background: rgb(0, 0, 185);
+   transition-duration: 0.5s;
+   }
+.informacao{
+   float: left;
+}
+.imagem-dinheiro{
+   float: right;
+}
+.parte-do-carro{
+ background-image: linear-gradient(to top, rgb(2, 11, 26), #001e81);
+ padding-top: 50px;
+ margin-top: 500px;
+ padding-bottom: 100px;
+}
+.imagem-carro{
+ padding-top: 50px; 
+}
+.descricao-inscricao{
+ color:#fff;
+}
+.descricao-inscricao h3{
+ font-size: 60px;
+}
+.descricao-inscricao h6{
+ font-size: 20px;
+}
+.insc-dispo {
+ padding-top: 40px;
+}
+.insc-dispo a{
+ text-decoration: none;
+ color: rgb(167, 161, 161);
+}
+.insc-dispo a:hover{
+ text-decoration: none;
+ color: rgb(167, 161, 161);
+}
+.enviar1 input{
+   width: 100%;
+   height: 40px;
+   background: rgb(109, 105, 105);
+   border-radius: 4px;
+   height: 35px;
+   color: #fff;
+   border: none;
+ }
+ .enviar1{
+   padding-top: 15px;
+ } 
+ .enviar1 input:hover{
+   background: rgb(0, 0, 185);
+   transition-duration: 0.5s;
+   }
+   .lanc{
+     text-align: center;
+     color: white;
+     background-image: linear-gradient(to top, rgb(2, 11, 26), #001e81);
+   }
+   
+   .MoreInfo {
+     text-align: center;
+     color: rgba(128, 128, 128, 0.87);
+   }
+   .MoreInfo h4{
+     font-size: 20px;
+   }
+   footer{
+     padding-top: 20px;
+     text-align: center;
+     color: rgba(128, 128, 128, 0.87);
+     
+   }
+   footer h4{
+     font-size: 20px;
+   }
+   .lancamento h1{
+     font-size: 50px;
+   }
+   li{
+     display: inline-block;
+     padding: 50px;
+     text-decoration: none;
+   }
+   .countdown div{
+     font-size: 25px;
+   }
+   .countdown span{
+     font-size: 60px;
+   }
+ @media (max-width: 1125px) {
+.fundo{
+ padding-top: 3px;
+}
+}
+@media (max-width: 950px) {
+ .fundo{
+   background-image:linear-gradient(to top, #0F4AA7, #ffffff);
+   height: 450px;
+
+ }
+li{
+  padding: 20px;
+}
+}
+@media (max-width: 768px) {
+ .parte-do-carro{
+   margin-top: 900px;
+ }
+
+.countdown{
+ text-align: left;
+  padding: 0px;
+}
+.countdown ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  padding-left: 0px;
+ padding-right: 30px;
+}
+.countdown div{
+     font-size: 25px;
+   }
+   .countdown span{
+     font-size: 60px;
+   }
+}
+@media (max-width: 600px) {
+li{
+  padding-left: 0px;
+ padding-right: 15px;
+}
+
+}
+@media (max-width: 550px) {
+ .countdown div{
+     font-size: 15px;
+   }
+   .countdown span{
+     font-size: 45px;
+   }
+
+}
+@media (max-width: 500px) {
+ .logo img{
+   display: none;
+ }
+ .descricao  h3{
+   font-size: 40px;
+ }
+  li{
+  padding-left: 0px;
+ padding-right: 6px;
+}
+.countdown div{
+     font-size: 15px;
+   }
+   .countdown span{
+     font-size: 50px;
+   }
+}
+@media (max-width: 344px) {
+   .countdown div{
+     font-size: 12px;
+   }
+
+   .countdown span{
+     font-size: 31px;
+   }
+ .lancamento h1{
+   font-size: 40px;
+ }
+ #contato h3{
+   font-size: 30px;
+ }
+}
+
+
